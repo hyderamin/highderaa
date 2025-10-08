@@ -18,7 +18,8 @@ export default function AboutPage() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-balance mb-4">About DB Delay Predictor</h1>
             <p className="text-xl text-muted-foreground text-pretty">
-              Learn about our mission and the person behind this project
+              Train delays cause more than missed connections. They cause missed moments. DB Delay Predictor helps you
+              plan ahead by showing how likely your train is to be late, based on real data from Deutsche Bahn.
             </p>
           </div>
 
@@ -32,23 +33,17 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                Train delays are a common frustration for millions of Deutsche Bahn passengers every day. Missing
-                connections, being late for important meetings, or simply not knowing when to leave home creates
-                unnecessary stress in our daily lives.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                We built this delay predictor to empower travelers with accurate, data-driven insights about potential
-                delays before they happen. By leveraging machine learning algorithms trained on historical Deutsche Bahn
-                data, weather patterns, and real-time network conditions, we aim to make train travel more predictable
-                and less stressful.
+                For millions of travelers, uncertainty is the hardest part of taking the train. You leave early, rush to
+                the station, and still end up waiting. We built this project to give travelers back control through data
+                that makes planning easier and travel calmer.
               </p>
               <div className="flex items-start gap-3 p-4 bg-muted/50 rounded-lg">
                 <Lightbulb className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Our Vision</p>
                   <p className="text-sm text-muted-foreground">
-                    A world where every train passenger can plan their journey with confidence, knowing exactly what to
-                    expect from their Deutsche Bahn experience.
+                    A world where every passenger knows what to expect before they travel. Because predictability should
+                    be part of every journey.
                   </p>
                 </div>
               </div>
@@ -74,16 +69,12 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Hyder</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      I love building stuff. With deep experience in startups and a passion for solving real problems, I
-                      saw train delays as a universal pain point that affects millions of Deutsche Bahn passengers every
-                      day. So I decided to build something about it.
+                      Hi, I'm Hyder. I love building things that solve real problems. After countless delayed trains and
+                      missed meetings, I decided to build something that helps others avoid the same frustration. This
+                      project is for anyone who has ever been left waiting on a platform, wondering when the next train
+                      will really arrive.
                     </p>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    I don't come from a data analytics background, but that's never stopped me from tackling challenges
-                    head-on. This project is for everyone who's ever been frustrated by unpredictable train delays. If
-                    it's a problem worth solving, it's worth building.
-                  </p>
                   <div className="flex flex-wrap gap-3">
                     <Button variant="outline" size="sm" asChild>
                       <Link
@@ -148,7 +139,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="bg-muted py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 DB Delay Predictor. Built with ❤️ for better train journeys.</p>
+          <p>Built with real Deutsche Bahn data. Designed to help you plan smarter and travel calmer.</p>
         </div>
       </footer>
     </div>

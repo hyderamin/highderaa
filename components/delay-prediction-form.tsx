@@ -291,7 +291,7 @@ export function DelayPredictionForm() {
       </div>
 
       <button type="submit" disabled={loading} className="rounded bg-red-600 px-4 py-2 text-white">
-        {loading ? "Predicting…" : "Predict the Delay"}
+        {loading ? "Checking…" : "Check your train delay"}
       </button>
 
       {error && <div className="mt-3 text-red-600 text-sm">Error: {error}</div>}

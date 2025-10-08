@@ -11,24 +11,29 @@ export default function HomePage() {
       <section className="bg-gradient-to-b from-muted/50 to-background py-16">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">Never Miss Your Connection Again</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">Predict DB delays before you go</h1>
             <p className="text-xl text-muted-foreground text-pretty mb-8">
-              Get accurate delay predictions for Deutsche Bahn trains using advanced machine learning algorithms
+              Predict Deutsche Bahn train delays before they happen. Plan every journey with confidence, using real data
+              and simple insights.
             </p>
             <div className="flex flex-wrap justify-center gap-8 mb-12">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Train className="h-5 w-5 text-primary" />
-                <span>Real-time Data</span>
+                <span>Real data</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Clock className="h-5 w-5 text-primary" />
-                <span>Accurate Predictions</span>
+                <span>Smart predictions</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <TrendingUp className="h-5 w-5 text-primary" />
-                <span>ML-Powered</span>
+                <span>Confidence before you board</span>
               </div>
             </div>
+            <p className="text-base text-muted-foreground text-pretty max-w-2xl mx-auto">
+              Every journey should start with clarity. DB Delay Predictor analyzes past Deutsche Bahn journeys to show
+              how likely your train is to run late. No guessing, no surprises, just smarter travel decisions.
+            </p>
           </div>
         </div>
       </section>
@@ -43,7 +48,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-muted py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 DB Delay Predictor. Built with ❤️ for better train journeys.</p>
+          <p>Built with real Deutsche Bahn data. Designed to help you plan smarter and travel calmer.</p>
         </div>
       </footer>
     </div>
