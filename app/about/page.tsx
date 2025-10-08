@@ -74,27 +74,31 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Hyder</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      As a frequent Deutsche Bahn traveler and data science enthusiast, I experienced firsthand the
-                      frustration of unpredictable train delays. After missing one too many connections, I decided to
-                      combine my passion for machine learning with my desire to solve real-world problems.
+                      I love building stuff. With deep experience in startups and a passion for solving real problems, I
+                      saw train delays as a universal pain point that affects millions of Deutsche Bahn passengers every
+                      day. So I decided to build something about it.
                     </p>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    With a background in data science and transportation analytics, I spent months collecting and
-                    analyzing Deutsche Bahn data to build accurate prediction models. This project represents my
-                    commitment to making public transportation more reliable and user-friendly for everyone.
+                    I don't come from a data analytics background, but that's never stopped me from tackling challenges
+                    head-on. This project is for everyone who's ever been frustrated by unpredictable train delays. If
+                    it's a problem worth solving, it's worth building.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Button variant="outline" size="sm" asChild>
-                      <Link href="https://linkedin.com/in/hyder" target="_blank" rel="noopener noreferrer">
+                      <Link
+                        href="https://www.linkedin.com/in/syed-hyder-amin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <Linkedin className="h-4 w-4 mr-2" />
                         LinkedIn Profile
                       </Link>
                     </Button>
                     <Button variant="outline" size="sm" asChild>
-                      <Link href="mailto:hyder@example.com">
+                      <Link href="mailto:hyderamin7@gmail.com">
                         <Mail className="h-4 w-4 mr-2" />
-                        hyder@example.com
+                        hyderamin7@gmail.com
                       </Link>
                     </Button>
                   </div>
